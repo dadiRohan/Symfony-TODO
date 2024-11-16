@@ -1,0 +1,8 @@
+
+
+# Defines a route configuration
+index:
+  # Sets the URL path for this route
+  path: /
+  # Links the URL path to a specific method of a controller
+  controller: App\Controller\DefaultController::index
